@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+  <!--version      : 1-->
+  <!--author Vivek Bhardwaj -->
+  <!--Sample XML for KAI -->
+  <!--all information as below -->
+<Quadcopter>
+	<assembly id="bk101">
+       <name>Quadcopter</name>
+	<assembly id="bk201">
+		<name>Upper frame</name>
+	   <part id="bk102">
+		  <name>Motor1</name>
+		  <material>Aluminium</material>
+		  <material_id>801</material_id>
+		  <part_type>2D</part_type>
+		  <offset>OID</offset>
+	   </part>
+	   <part id="bk103">
+		  <name>Motor2</name>
+		  <material>Aluminium</material>
+		  <material_id>801</material_id>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+	   </part>
+	   <part id="bk104">
+		  <name>Motor3</name>
+		  <material>Aluminium</material>
+		  <material_id>801</material_id>
+		  <part_type>2D</part_type>
+		  <offset>IML</offset>
+		</part>
+	   <part id="bk105">
+		  <name>Motor4</name>
+		  <material>Aluminium</material>
+		  <material_id>801</material_id>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+	   </part>
+	   <part id="bk106">
+		  <name>TopP</name>
+		  <material>Steel</material>
+		  <material_id>901</material_id>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+	   </part>
+   </assembly>
+   	<assembly id="bk301">
+		<name>Upper frame</name>
+		<part id="bk107">
+		  <name>Lower1</name>
+		  <material>Aluminium</material>
+		  <material_id>801</material_id>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+		</part>
+	   <part id="bk108">
+		  <name>Lower2</name>
+		  <material>Aluminium</material>
+		  <material_id>801</material_id>
+		  <part_type>3D</part_type>
+	   </part>
+	   <part id="bk109">
+		  <name>Lower3</name>
+		  <material>Aluminium2</material>
+		  <material_id>701</material_id>
+		  <part_type>2D</part_type>
+		  <offset>OID</offset>
+	   </part>
+	   <part id="bk110">
+		  <name>Lower4</name>
+		  <material>Aluminium2</material>
+		  <material_id>701</material_id>
+		  <part_type>3D</part_type>
+	   </part>
+	   <part id="bk111">
+		  <name>BottomP</name>
+		  <material>Steel</material>
+		  <material_id>901</material_id>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+
+	   </part>
+    </assembly>
+	</assembly>
+
+</Quadcopter>
+
+<!-- Parts which are not available in this CAD geometry -->
+
+<!-- Sample for Fastener -->
+	   <part id="bk911">
+		  <name>Fastener1</name>
+		  <fastener_id>1001</fastener_id>
+		  <part_type>1F</part_type>
+
+	   </part>
+<!-- Sample for 1D element like bar beams -->
+	   	   <part id="bk811">
+		  <name>Stiffner</name>
+		  <material>Steel</material>
+		  <material_id>901</material_id>
+		  <part_type>1D</part_type>
+
+	   </part>
+	   
+	   
