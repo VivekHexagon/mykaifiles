@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+  <!--version      : 1-->
+  <!--author Vivek Bhardwaj -->
+  <!--Generic Wing XML for KAI -->
+  <!--Names are as per the Apex geometry -->
+<Generic_Wing_Assembly>
+	<assembly id="bk101">
+       <name>Generic Wing Assembly</name>
+	<assembly id="bk201">
+		<name>Leading_Edge</name>
+	   <part id="bk301">
+		  <name>Part 1</name>
+		  <material>Material.1</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+	   </part>
+	</assembly>
+	<assembly id="bk202">
+		<name>Skin</name>
+	   <part id="bk302">
+		  <name>Part 2</name>
+		  <material>Material.1</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+	   </part>
+	</assembly>
+	<assembly id="bk203">
+		<name>Ribs_Stringers</name>
+	   <part id="bk303">
+		  <name>Part 3</name>
+		  <material>Material.1</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>OML</offset>
+	   </part>
+	</assembly>
+    <assembly id="bk204">
+		<name>Bracket</name>
+	   <part id="bk304">
+		  <name>Part 4</name>
+		  <material>Material.2</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>Solid</part_type>
+		  <offset>Solid</offset>
+	   </part>
+	</assembly>
+
+	</assembly>
+</Generic_Wing_Assembly>
+
+
+
+<!-- Parts which are not available in this CAD geometry -->
+
+<!-- Sample for Fastener -->
+

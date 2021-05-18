@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+  <!--version      : 3-->
+  <!--author Vivek Bhardwaj -->
+  <!--Sample XML for KAI -->
+  <!--Names are as per the Apex geometry -->
+<Quadcopter>
+	<assembly id="bk101">
+       <name>Quadcopter</name>
+	<assembly id="bk201">
+		<name>Upper frame</name>
+	   <part id="bk102">
+		  <name>Motor support leg 1</name>
+		  <material>Material.1</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>OML</offset>
+	   </part>
+	   <part id="bk103">
+		  <name>Motor support leg 2</name>
+		  <material>Material.1</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+	   </part>
+	   <part id="bk104">
+		  <name>Motor support leg 3</name>
+		  <material>Material.1</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>IML</offset>
+		</part>
+	   <part id="bk105">
+		  <name>Motor support leg 4</name>
+		  <material>Material.7_1</material>
+		  <material_type>3D Anisotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+	   </part>
+	   <part id="bk106">
+		  <name>Top plate</name>
+		  <material>Material.2</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+	   </part>
+   </assembly>
+   	<assembly id="bk301">
+		<name>Lower frame</name>
+		<part id="bk107">
+		  <name>Lower leg 1</name>
+		  <material>Material.1</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+		</part>
+	   <part id="bk108">
+		  <name>Lower leg 2</name>
+		  <material>Material.1</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>3D</part_type>
+		   <offset>None</offset>
+	   </part>
+	   <part id="bk109">
+		  <name>Lower leg 3</name>
+		  <material>Material.5</material>
+		  <material_type>2D Orthotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>OID</offset>
+	   </part>
+	   <part id="bk110">
+		  <name>Lower leg 4</name>
+		  <material>Material.2</material>
+		  <material_type>Isotropic</material_type>
+		  <part_type>3D</part_type>
+		   <offset>None</offset>
+	   </part>
+	   <part id="bk111">
+		  <name>Bottom plate</name>
+		  <material>Material.5</material>
+		  <material_type>2D Orthotropic</material_type>
+		  <part_type>2D</part_type>
+		  <offset>MID</offset>
+	   </part>
+    </assembly>
+	</assembly>
+
+</Quadcopter>
+
+<!-- Parts which are not available in this CAD geometry -->
+
+<!-- Sample for Fastener -->
+
