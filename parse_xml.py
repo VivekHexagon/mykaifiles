@@ -1,7 +1,11 @@
 import xml.etree.ElementTree as ET
 import pandas as pd
+import os
 """Version1 this code reads the XML and create the pandas data frame"""
-tree = ET.parse('sample.xml')
+src_dir = os.path.dirname(os.path.realpath(__file__))
+xml_path = os.path.join(src_dir, "quadcopter.xml")
+
+tree = ET.parse(xml_path)
 root = tree.getroot()
 
 def assembly_information():
